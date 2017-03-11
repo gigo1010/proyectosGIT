@@ -22,18 +22,25 @@ body {
 
 .menu_horizontal{
  float: right;
+ margin-right: 20px;
 }
 
 .titulo {
   float: left;
+  margin-left: 20px;
 }
 
 .menu li{
   display: block;
-  padding: 0 10px;
-  color: white;
+  padding: 10px 10px;
   float: left;
 }
+.menu li a{
+  color: white;
+  text-decoration: none;
+}
+
+
 .limpiar{
   clear: both;
 }
