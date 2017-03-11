@@ -1,8 +1,18 @@
 body {
 	margin: 20px;
-	background-color: #5b7989;
+	background-color: black;
 	color: white;
 	font-family: Raleway;
+}
+#cuerpo{
+  margin: 50px;
+}
+
+.cabecera{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
 }
 
 header h1{
