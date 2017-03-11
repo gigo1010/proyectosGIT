@@ -8,14 +8,32 @@ body {
   margin: 50px;
 }
 
-.cabecera{
+#cabecera{
   background-color: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 
 }
 
-header h1{
+.titulo h1{
   color: white;
   text-shadow: 2px 2px #02010a;
+}
+
+.menu_horizontal{
+ float: right;
+}
+
+.titulo {
+  float: left;
+}
+
+.menu li{
+  display: block;
+  padding: 0 10px;
+  color: white;
+  float: left;
+}
+.limpiar{
+  clear: both;
 }
