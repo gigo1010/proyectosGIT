@@ -35,12 +35,23 @@ body {
   padding: 10px 10px;
   float: left;
 }
+
 .menu li a{
   color: white;
   text-decoration: none;
 }
 
-
 .limpiar{
   clear: both;
+}
+
+#imagen_central{
+  background-color: #82c3a6;
+  text-align: center;
+}
+
+#imagen_central img{
+  width: 50%;
+  height: 50%;
+
 }
