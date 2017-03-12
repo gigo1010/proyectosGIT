@@ -1,11 +1,17 @@
 body {
 	margin: 20px;
-	background-color: black;
+	background-color: #02010a;
 	color: white;
-	font-family: Raleway;
+	font-family: Dancing Script;
 }
 #cuerpo{
   margin: 50px;
+}
+
+#cuerpo img{
+  -webkit-box-shadow: 2px 2px 2px #02010a;
+  -moz-box-shadow: 2px 2px 2px #02010a;
+  filter: shadow(color=#02010a, direction=135, strength=2);
 }
 
 #cabecera{
@@ -51,7 +57,7 @@ body {
 }
 
 #imagen_central img{
-  width: 50%;
-  height: 50%;
-
+  width: 70%;
+  height: 70%;
+  margin: 20px;
 }
