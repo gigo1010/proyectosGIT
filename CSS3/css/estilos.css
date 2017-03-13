@@ -1,14 +1,23 @@
 body {
-	margin: 20px;
+	margin: 0px;
 	background-color: #02010a;
 	color: white;
 	font-family: Dancing Script;
 }
-#cuerpo{
-  margin: 50px;
+
+@media (max-width:900px) {
+
+
 }
 
-#cuerpo img{
+#contenido{
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 0%;
+
+}
+
+#contenido img{
   -webkit-box-shadow: 2px 2px 2px #02010a;
   -moz-box-shadow: 2px 2px 2px #02010a;
   filter: shadow(color=#02010a, direction=135, strength=2);
@@ -18,7 +27,6 @@ body {
   background-color: #5b7989;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-
 }
 
 .titulo h1{
@@ -47,6 +55,7 @@ body {
   text-decoration: none;
 }
 
+
 .limpiar{
   clear: both;
 }
@@ -57,7 +66,6 @@ body {
 }
 
 #imagen_central img{
-  width: 70%;
-  height: 70%;
-  margin: 20px;
+  max-width: 60%;
+  margin: 2%;
 }
