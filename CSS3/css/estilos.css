@@ -5,17 +5,25 @@ body {
 	font-family: Dancing Script;
 }
 
-@media (max-width:900px) {
+@media (max-width:1024px) {
+  #contenido{
+    width: 100%;
+    margin-left: 0%;
+    margin-right: 0%;
 
-
+  }
+}
+@media (min-width:1024px) {
+  #contenido{
+    width: 900px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0%;
+  }
 }
 
-#contenido{
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 0%;
 
-}
 
 #contenido img{
   -webkit-box-shadow: 2px 2px 2px #02010a;
