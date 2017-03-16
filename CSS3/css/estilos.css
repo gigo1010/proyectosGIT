@@ -5,15 +5,14 @@ body {
 	font-family: Dancing Script;
 }
 
-@media (max-width:1024px) {
+@media (max-width:900px) {
   #contenido{
     width: 100%;
     margin-left: 0%;
     margin-right: 0%;
-
   }
 }
-@media (min-width:1024px) {
+@media (min-width:900px) {
   #contenido{
     width: 900px;
     align-items: center;
@@ -21,6 +20,14 @@ body {
     margin-right: auto;
     margin-top: 0%;
   }
+	div [class*="imagen"]{
+	  flex: 1 2 30%;
+		margin: 4%;
+	}
+	#imagen_secundaria{
+	display: inline-flex;
+	flex-flow: row wrap;
+	}
 }
 
 
@@ -76,4 +83,27 @@ body {
 #imagen_central img{
   max-width: 60%;
   margin: 2%;
+}
+
+#imagen_secundaria{
+	background-color: #d5c75f;
+  text-align: center;
+	border: 1px solid;
+	}
+.imagen_paisajes img{
+	max-width: 100%;
+	margin: 2%;
+
+}
+
+.imagen_retratos img{
+	max-width: 100%;
+	margin: 2%;
+}
+.imagen_paisajes{
+	order: 1;
+}
+
+.imagen_retratos{
+	order: 2;
 }
