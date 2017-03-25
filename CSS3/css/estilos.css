@@ -137,5 +137,29 @@ body {
 	transform: rotate(10deg);
 	animation-name: imagen_paisajes_animacion;
 	animation-duration: 2s;
+}
 
+@keyframes imagen_retratos_animacion {
+	from{
+		-webkit-box-shadow: 2px 2px 2px #02010a;
+		-moz-box-shadow: 2px 2px 2px #02010a;
+		filter: shadow(color=#02010a, direction=135, strength=2);
+	}
+	to{
+		-webkit-box-shadow: 2px 2px 2px #82c3a6;
+		-moz-box-shadow: 2px 2px 2px #82c3a6;
+		filter: shadow(color=#82c3a6, direction=135, strength=2);
+	}
+}
+
+.imagen_retratos img{
+	-webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+}
+
+.imagen_retratos img:hover{
+	transform: translate(20px, -5px);
+	animation-name: imagen_retratos_animacion;
+	animation-duration: 2s;
 }
