@@ -1,10 +1,10 @@
 body {
 	margin: 0px;
 	background-color: #02010a;
-	color: white;
 	font-family: Dancing Script;
 }
 
+/*Formato tableta */
 @media (max-width:900px) {
 	body{
 		text-align: center;
@@ -16,11 +16,27 @@ body {
   }
 	div [class*="imagen"] img{
 		max-width: 70%;
-		margin: 2%;
-		text-align: center;
+		margin: 0%;
+		margin-top: 10%;
+		margin-bottom: 10%;
+		margin-left: 10%;
+		margin-right: 10%;
 	}
+
+	div [class*="imagen"] a{
+		text-align: center;
+		margin-top: 10%;
+	}
+	div [class*="col"] {
+		padding-top: 10px;
+	}
+	footer{
+		height: 20%;
+	}
+
 }
 
+/*Formato computador */
 @media (min-width:900px) {
   #contenido{
     width: 900px;
@@ -45,6 +61,22 @@ body {
 	display: inline-flex;
 	flex-flow: row wrap;
 	}
+
+	footer{
+		height: 10%;
+	}
+
+	footer div{
+		float: left;
+		width: 25%;
+		background-color: #C6d5c5;
+		text-align: center;
+	}
+
+}
+
+#contenido{
+
 }
 
 #contenido img{
@@ -103,6 +135,7 @@ body {
 	background-color: #d5c75f;
   text-align: center;
 	border: 1px solid;
+	font-weight: bold;
 	}
 
 #imagen_secundaria img{
@@ -172,12 +205,5 @@ body {
 }
 
 footer{
-	height: 10%;
-}
-
-footer div{
-	float: left;
-	width: 25%;
-	background-color: #C6d5c5;
-	text-align: center;
+	font-weight: bold;
 }
