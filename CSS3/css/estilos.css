@@ -16,26 +16,21 @@ body {
   }
 	div [class*="imagen"] img{
 		max-width: 70%;
-		margin: 0%;
-		margin-top: 10%;
-		margin-bottom: 10%;
-		margin-left: 10%;
-		margin-right: 10%;
+		margin-top: 3%;
+		margin-bottom: 3%;
+		margin-left: 15%;
+		margin-right: 15%;
 	}
-
 	div [class*="imagen"] a{
 		text-align: center;
 		margin-top: 10%;
 	}
-
 	div [class*="col"] {
 		padding: 3%;
 	}
-
 	footer{
 		height: 40%;
 	}
-
 }
 
 /*Formato computador */
@@ -50,7 +45,10 @@ body {
 
 	div [class*="imagen"] img{
 		max-width: 100%;
-		margin: 2%;
+		margin-top: 2%;
+		margin-bottom: 2%;
+		margin-left: auto;
+		margin-right: auto;
 	}
 
 	div [class*="imagen"]{
@@ -139,10 +137,6 @@ body {
 
 #imagen_secundaria img{
 	text-align: center;
-	margin-top: 2%;
-	margin-bottom: 2%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 @keyframes imagen_paisajes_animacion {
