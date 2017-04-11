@@ -19,11 +19,6 @@ body {
 		margin: 2%;
 		text-align: center;
 	}
-	footer div{
-		width: 100%;
-		display: flex;
-	   padding: 10px;
-	}
 }
 
 @media (min-width:900px) {
@@ -49,11 +44,6 @@ body {
 	#imagen_secundaria{
 	display: inline-flex;
 	flex-flow: row wrap;
-	}
-
-	footer div{
-		float: left;
-		width: 25%;
 	}
 }
 
@@ -186,7 +176,8 @@ footer{
 }
 
 footer div{
+	float: left;
+	width: 25%;
 	background-color: #C6d5c5;
 	text-align: center;
-
 }
