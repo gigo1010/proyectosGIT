@@ -75,7 +75,6 @@ body {
 
 }
 
-
 #contenido img{
 	-webkit-box-shadow: 2px 2px 2px #02010a;
   -moz-box-shadow: 2px 2px 2px #02010a;
@@ -197,5 +196,14 @@ body {
 }
 
 footer{
+	height: 25%;
+	line-height: 30px;
+}
+footer br{
+	line-height: 1px;
+}
+
+footer h2{
 	font-weight: bold;
+	line-height: 0px;
 }
