@@ -196,14 +196,16 @@ body {
 }
 
 footer{
-	height: 25%;
-	line-height: 30px;
+	height: 28%;
+	line-height: 25px;
 }
+
+
 footer br{
 	line-height: 1px;
 }
 
 footer h2{
 	font-weight: bold;
-	line-height: 0px;
+	line-height: 20px;
 }
