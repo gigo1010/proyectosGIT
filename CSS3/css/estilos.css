@@ -29,7 +29,8 @@ body {
 		padding: 3%;
 	}
 	footer{
-		height: 40%;
+		height: 120%;
+		line-height: 25px;
 	}
 }
 
@@ -63,7 +64,8 @@ body {
 	}
 
 	footer{
-		height: 10%;
+		height: 28%;
+		line-height: 25px;
 	}
 
 	footer div{
@@ -193,11 +195,6 @@ body {
 	background-color: #C6d5c5;
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
-}
-
-footer{
-	height: 28%;
-	line-height: 25px;
 }
 
 
