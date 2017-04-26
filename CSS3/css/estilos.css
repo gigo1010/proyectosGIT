@@ -99,20 +99,25 @@ body {
  margin-right: 20px;
 }
 
-.titulo {
-  float: left;
-  margin-left: 20px;
-}
-
 .menu li{
   display: block;
   padding: 10px 10px;
   float: left;
 }
-
 .menu li a{
   color: white;
-  text-decoration: none;
+  text-decoration: underline;
+}
+
+
+.menu li a:hover{
+	text-decoration: none;
+
+}
+
+.titulo {
+  float: left;
+  margin-left: 20px;
 }
 
 .limpiar{
