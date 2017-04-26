@@ -99,6 +99,8 @@ body {
  margin-right: 20px;
 }
 
+
+
 .menu li{
   display: block;
   padding: 10px 10px;
@@ -106,13 +108,12 @@ body {
 }
 .menu li a{
   color: white;
-  text-decoration: underline;
 }
 
 
-.menu li a:hover{
+.active a{
+	color: white;
 	text-decoration: none;
-
 }
 
 .titulo {
