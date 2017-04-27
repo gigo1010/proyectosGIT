@@ -8,6 +8,7 @@ body {
 @media (max-width:900px) {
 	body{
 		text-align: center;
+		margin: 0px;
 	}
   #contenido{
     width: 100%;
@@ -21,6 +22,22 @@ body {
 		margin-left: 15%;
 		margin-right: 15%;
 	}
+
+	#cabecera {
+		text-align: center;
+	}
+
+	.menu {
+		margin: 0px;
+	}
+
+	.menu li{
+		display: inline-block;
+		padding: 10px 10px;
+		margin-bottom: 10px;
+	}
+
+
 	div [class*="imagen"] a{
 		text-align: center;
 		margin-top: 10%;
@@ -63,10 +80,26 @@ body {
 		text-align: center;
 	}
 
-	#imagen_secundaria{
-	display: inline-flex;
-	flex-flow: row wrap;
+	.titulo {
+	  float: left;
+	  margin-left: 20px;
 	}
+
+	.menu_horizontal{
+	 float: right;
+	 margin-right: 20px;
+	}
+
+	.menu li{
+	  display: block;
+	  padding: 10px 10px;
+	  float: right;
+	}
+
+	#imagen_secundaria {
+		display: inline-flex;
+		flex-flow: row wrap;
+  }
 
 	#galeria {
 		min-height: 370px;
@@ -112,17 +145,6 @@ body {
   text-shadow: 2px 2px #02010a;
 }
 
-.menu_horizontal{
- float: right;
- margin-right: 20px;
-}
-
-.menu li{
-  display: block;
-  padding: 10px 10px;
-  float: left;
-}
-
 .menu li a{
   color: white;
 }
@@ -130,11 +152,6 @@ body {
 .active a{
 	color: white;
 	text-decoration: none;
-}
-
-.titulo {
-  float: left;
-  margin-left: 20px;
 }
 
 .limpiar{
