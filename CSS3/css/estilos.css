@@ -63,6 +63,7 @@ body {
 	flex-flow: row wrap;
 	}
 
+
 	footer{
 		height: 28%;
 		line-height: 25px;
@@ -99,17 +100,15 @@ body {
  margin-right: 20px;
 }
 
-
-
 .menu li{
   display: block;
   padding: 10px 10px;
   float: left;
 }
+
 .menu li a{
   color: white;
 }
-
 
 .active a{
 	color: white;
@@ -202,7 +201,6 @@ body {
 	border-bottom-left-radius: 10px;
 	border-bottom-right-radius: 10px;
 }
-
 
 footer br{
 	line-height: 1px;
