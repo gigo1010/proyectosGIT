@@ -28,6 +28,11 @@ body {
 	div [class*="col"] {
 		padding: 3%;
 	}
+
+	#galeria {
+		background-color: #82c3a6;
+	}
+
 	footer{
 		height: 120%;
 		line-height: 25px;
@@ -63,6 +68,18 @@ body {
 	flex-flow: row wrap;
 	}
 
+	#galeria {
+		min-height: 370px;
+		background-color: #82c3a6;
+	  text-align: center;
+	}
+
+	#galeria div{
+		width: 29%;
+	  height: 150px;
+	  margin: 2%;
+	  float: left;
+	}
 
 	footer{
 		height: 28%;
