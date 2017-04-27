@@ -250,6 +250,20 @@ body {
 	animation-duration: 2s;
 }
 
+/* ==== Pagina retratos y paisajes ==== */
+
+.imagen_galeria1{
+	-webkit-filter: blur(10px);
+}
+
+#galeria [class*="galeria"]:nth-child(2n) img{
+	-webkit-filter: grayscale(1);
+}
+
+.imagen_galeria3 {
+	-webkit-filter: sepia(0.9);
+}
+
 #footer_div {
 	background-color: #C6d5c5;
 	border-bottom-left-radius: 10px;
