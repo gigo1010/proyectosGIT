@@ -4,17 +4,33 @@ body {
 	font-family: Dancing Script;
 }
 
+#contenido {
+	animation-name: slidein;
+	animation-duration: 2s;
+}
+/* == Animacion entrada ==*/
+@keyframes slidein {
+	0% {
+		margin-top: 150%;
+	}
+	60%{
+		margin-top: -5%;
+	}
+	100% {
+		margin-top: 0%;
+	}
+}
+
 /*Formato tableta */
 @media (max-width:900px) {
-	body{
-		text-align: center;
-		margin: 0px;
-	}
   #contenido{
     width: 100%;
-    margin-left: 0%;
-    margin-right: 0%;
+    margin-left: auto;
+    margin-right: auto;
+		margin-top: 0px;
+
   }
+
 	div [class*="imagen"] img{
 		max-width: 70%;
 		margin-top: 3%;
